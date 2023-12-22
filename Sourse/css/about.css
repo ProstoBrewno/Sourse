@@ -1,0 +1,163 @@
+.about_main
+{
+    background-color: #e6e6e6 ;
+
+}
+
+.about
+{
+    max-width: 1000px;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto; 
+
+}
+.about_block1-2
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.about_photo,.about_info
+{
+    margin: 10px;
+    height: 24em;
+    border-radius: 5px;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+.about_block3,.about_block4,.about_block5
+{
+    margin: 10px;
+    height: auto;
+    border-radius: 5px;
+    background-size: cover;
+    transition: all 0.3s ease;
+}
+
+.about_photo
+{
+    background-image: url(http://www.chegarova.ru/uploads/people/phg5553c552beaf6.jpg);
+    background-size: cover;
+    width: 70%;
+}
+.about_info
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 30%;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.about_block3
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: auto;
+    background-color: #fff;
+    padding: 10px;
+}
+.about_block4
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: auto;
+    background-color: #fff;
+    padding: 10px;
+}
+.about_block5
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: auto;
+    background-color: #fff;
+    padding: 10px;
+}
+@media (max-width: 768px) 
+{
+    .about_block1-2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .about_photo
+    {
+        width: auto;
+        height: 226px;
+        background-size: contain;
+    }
+    .about_info
+    {
+        width: auto;
+        height: auto;
+    }
+}
+
+
+
+/*.company-info {
+	height: auto;
+  	width: 680;
+  	display: flex;
+    justify-content: center;
+    height: auto;
+    flex-direction: column;
+}
+
+.company-photo
+{
+	width: 660px;
+    height: 400px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 1px solid #272727;
+    background-size: cover;
+    transition: all 0.3s ease;
+    background-image: url(http://www.chegarova.ru/uploads/people/phg5553c552beaf6.jpg);
+    object-fit: cover;
+}
+
+.company
+{
+	margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+.about
+{
+	width: 660px;
+    height: auto;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 1px solid #272727;
+    background-size: cover;
+}
+.mission
+{
+	width: 660px;
+    height: auto;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 1px solid #272727;
+    background-size: cover;
+    margin-bottom: 20px;
+}

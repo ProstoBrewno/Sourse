@@ -1,0 +1,208 @@
+.wrapper
+{
+  background-color: #e6e6e6 ;
+}
+.secserv1 {
+  max-width: 1000px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px auto;
+}
+.servblock1-2,.servblock3-4,.servblock5-6
+{
+  display: flex;
+  flex-direction: row;
+  
+}
+.servblock1,.servblock2,.servblock3,.servblock4,.servblock5,.servblock6
+{
+
+  width: 100%;
+  height: 17em;
+  margin: 20px;
+  border: solid 1px #999;
+  border-radius: 5px;
+  background-size: cover;
+  transition: all 0.3s ease;
+}
+.servblock1:hover,
+.servblock2:hover,
+.servblock3:hover,
+.servblock4:hover,
+.servblock5:hover,
+.servblock6:hover  
+{
+  transform: scale(1.05);
+}
+
+.text-overlay1,
+.text-overlay2,
+.text-overlay3,
+.text-overlay4,
+.text-overlay5,
+.text-overlay6 {
+  background-color: rgba(39, 39, 39, 0.8);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  color: #fff;
+  width: fit-content;
+}
+
+.servblock1
+{
+  background-image: url(https://eskan.ca/wp-content/uploads/2015/10/Feat700X1200-600x300.jpg);
+  background-size: cover;
+}
+.servblock2 {
+  background-image: url(https://www.pukkapartners.com/media/2023/1/cd864bdf-b126-41db-937f-04a11f63b7df.jpg);
+  background-size: cover;
+}
+
+.servblock3 {
+  background-image: url(https://srg-eco.ru/wp-content/uploads/2021/04/simg.sputnik.ru_.jpg);
+  background-size: cover;
+}
+
+.servblock4 {
+  background-image: url(https://i.pinimg.com/736x/33/09/48/3309486b59c0f0205b6d4e8f46314d75.jpg);
+  background-size: cover;
+}
+.servblock5 {
+  background-image: url(https://ewnews.com/wp-content/uploads/2022/06/shutterstock_304167944-scaled.jpg);
+  background-size: cover;
+}
+
+.servblock6 {
+  background-image: url(https://uk-parkovaya.ru/wp-content/uploads/2/c/d/2cda8d2bb73f701de0da5af8058c7d4d.jpg);
+  background-size: cover;
+}
+@media (max-width: 768px) 
+{
+  .servblock1-2,.servblock3-4,.servblock5-6
+  {
+    flex-direction: column;
+  }
+  .servblock1,.servblock2,.servblock3,.servblock4,.servblock5,.servblock6
+  {
+
+    width: auto;
+    height: 17em;
+    margin: 20px;
+    border: solid 1px #333;
+    background-size: cover;
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.servblock1-2, .servblock3-4, .servblock5- {
+  width: 680px;
+  height: 190px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.servblock1,
+.servblock2,
+.servblock3,
+.servblock4 {
+  height: 150px;
+  width: 300px;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  border: 1px solid #272727;
+  background-size: cover;
+  transition: all 0.3s ease;
+}
+
+.servblock1:hover,
+.servblock2:hover,
+.servblock3:hover,
+.servblock4:hover {
+  transform: scale(1.1);
+}
+
+.servblock5:hover {
+  transform: scale(1.05);
+}
+
+.servblock1 {
+  background-image: url(https://eskan.ca/wp-content/uploads/2015/10/Feat700X1200-600x300.jpg);
+}
+
+.servblock2 {
+  background-image: url(https://www.pukkapartners.com/media/2023/1/cd864bdf-b126-41db-937f-04a11f63b7df.jpg);
+}
+
+.servblock3 {
+  background-image: url(https://srg-eco.ru/wp-content/uploads/2021/04/simg.sputnik.ru_.jpg);
+}
+
+.servblock4 {
+  background-image: url(https://i.pinimg.com/736x/33/09/48/3309486b59c0f0205b6d4e8f46314d75.jpg);
+}
+
+.servblock5 {
+  width: 660px;
+  height: 150px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  border: 1px solid #272727;
+  background-size: cover;
+  transition: all 0.3s ease;
+  background-image: url(https://otransformatore.ru/wp-content/uploads/2022/11/tim-gouw-83023.jpg);
+  object-fit: cover;
+}
+
+.text-overlay1,
+.text-overlay2,
+.text-overlay3,
+.text-overlay4,
+.text-overlay5 {
+  background-color: rgba(39, 39, 39, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  width: fit-content;
+}
